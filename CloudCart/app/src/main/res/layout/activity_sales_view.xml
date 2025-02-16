@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/pic2"
+    tools:context=".SalesViewActivity">
+
+    <TextView
+        android:id="@+id/salesHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sales By Store"
+        android:textSize="20sp"
+        android:background="@drawable/white_background"
+        android:padding="30px"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/salesListView"
+        android:padding="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/salesHeading"
+        android:background="@drawable/white_background"/>
+</RelativeLayout>

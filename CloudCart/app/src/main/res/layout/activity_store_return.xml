@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pic2"
+    tools:context=".StoreReturnActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/lavender_border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Return Requests"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/lavender"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/return_idnum"
+                        android:background="@drawable/lavender_border"
+                        android:layout_marginTop="20dp"
+                        android:padding="8dp"
+                        android:hint="ID Number"
+                        android:drawableLeft="@drawable/baseline_perm_identity_24"
+                        android:drawablePadding="8dp"
+                        android:textColor="@color/black"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="View Request"
+                        android:id="@+id/retrieve_button"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        app:cornerRadius = "20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="400px"
+                        android:layout_height="400px"
+                        android:layout_marginTop="70px"
+                        android:background="@drawable/lavender_border"
+                        android:layout_gravity="center">
+
+                        <ImageView
+                            android:id="@+id/RequestImage"
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="50px"
+                            android:scaleType="centerCrop" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="50px"
+                        android:layout_marginTop="70px"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:id="@+id/emailContent"
+                        android:textColor="@color/lavender"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/product_name"
+                        android:background="@drawable/lavender_border"
+                        android:layout_marginTop="20dp"
+                        android:padding="8dp"
+                        android:hint="Product Name"
+                        android:drawableLeft="@drawable/baseline_perm_identity_24"
+                        android:drawablePadding="8dp"
+                        android:textColor="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Accept"
+                            android:id="@+id/accept_request"
+                            android:textSize="18sp"
+                            app:cornerRadius="40dp"
+                            android:layout_weight="1.0"
+                            android:layout_marginRight="40px"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Reject"
+                            android:id="@+id/reject_request"
+                            android:textSize="18sp"
+                            app:cornerRadius="40dp"
+                            android:layout_weight="1.0"
+                            android:layout_marginLeft="40px"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

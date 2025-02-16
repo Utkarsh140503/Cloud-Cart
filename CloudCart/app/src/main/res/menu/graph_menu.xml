@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_users_chart"
+            android:title="Users Chart"
+
+            />
+        <item
+            android:id="@+id/menu_pie_chart"
+            android:title="Pie Chart"
+            app:showAsAction="always"
+             />
+        <item
+            android:id="@+id/menu_bar_chart"
+            android:title="Bar Chart"
+            app:showAsAction="always"
+             />
+        <item
+            android:id="@+id/menu_everyday_sales"
+            android:title="Everyday Sales"
+            />
+    </group>
+</menu>

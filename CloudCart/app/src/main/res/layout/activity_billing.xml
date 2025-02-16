@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/pic2"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <com.budiyev.android.codescanner.CodeScannerView
+            android:id="@+id/scanner_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="H,1:1"
+            app:autoFocusButtonColor="@color/lavender"
+            app:autoFocusButtonVisible="true"
+            app:flashButtonColor="@color/lavender"
+            app:flashButtonVisible="true"
+            app:maskColor="#6C000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/scanner_textView"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/scanner_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scanner_view"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="SCAN SOMETHING"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scanner_view"
+            app:layout_constraintBottom_toTopOf="@id/button_addtocart"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/button_addtocart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ADD TO CART"
+            app:layout_constraintWidth_percent="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scanner_textView"
+            app:layout_constraintBottom_toTopOf="@id/cart_textView"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/cart_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintWidth_percent="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_addtocart"
+            app:layout_constraintBottom_toTopOf="@id/custNumText"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/custNumText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_border"
+            android:drawableLeft="@drawable/billing_ka_icon"
+            android:drawablePadding="8dp"
+            android:hint="Customer ID Number"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cart_textView"
+            app:layout_constraintBottom_toTopOf="@id/button_receipt"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/button_receipt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="GENERATE RECEIPT"
+            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/custNumText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/email_receipt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="EMAIL RECEIPT"
+            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/custNumText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
