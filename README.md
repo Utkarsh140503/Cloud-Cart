@@ -1,6 +1,6 @@
 # CloudCart: Revolutionizing Store and User Accounts  
 
-![CloudCart Banner](screenshot/banner.png)  
+![CloudCart Banner](ScreenShot/CloudCartBanner.png)  
 
 CloudCart is an **Android-based e-commerce platform** designed to streamline store management and enhance user shopping experiences. It supports **NFC-based store entry, barcode scanning, inventory management, automated billing, and AI chatbot assistance** for both store owners and customers.  
 
