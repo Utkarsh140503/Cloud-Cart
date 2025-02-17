@@ -1,64 +1,82 @@
-# VSMART Trolley
+# CloudCart: Revolutionizing Store and User Accounts  
 
-![VSMART Trolley](screenshot/banner.png)
+![CloudCart Banner](screenshot/banner.png)  
 
-## Redefining Shopping for All!
+CloudCart is an **Android-based e-commerce platform** designed to streamline store management and enhance user shopping experiences. It supports **NFC-based store entry, barcode scanning, inventory management, automated billing, and AI chatbot assistance** for both store owners and customers.  
 
-VSMART Trolley revolutionizes the shopping experience by integrating cutting-edge technology into a smart shopping cart. Designed to assist Divyanjans and enhance accessibility, the trolley features an automated billing system, barcode scanner, interactive display, and a voice assistant for seamless and inclusive shopping.
+## 🚀 Features  
 
-## Features
-- **Built-in Barcode Scanner** 📡 - Quickly scans and identifies products.
-- **Automated Billing System** 🛒 - Reduces checkout time with seamless transactions.
-- **Integrated Speaker System** 🔊 - Assists visually impaired shoppers by announcing product details.
-- **Digital Display Board** 📺 - Presents product information for hearing-impaired users.
-- **Arduino-Powered System** 🤖 - Ensures synchronized operation of all hardware components.
-- **Android Application** 📱 - Provides an interactive UI for product selection and billing.
+### 📌 Store Account Features  
+- **Inventory Management**: Add, update, and track products.  
+- **Barcode Generation**: Generate and assign barcodes for products.  
+- **Payment Verification**: Securely validate transactions.  
+- **Sales Analytics**: View sales trends through graphs and reports.  
+- **Return Handling**: Accept, reject, or track customer return requests.  
 
-## Download APK
-Click the button below to download the latest version of the VSMART Trolley Android app.
+### 📌 User Account Features  
+- **NFC-based Entry**: Securely enter stores using an NFC card.  
+- **Barcode Scanning**: Quickly add products to the cart by scanning barcodes.  
+- **CloudPoints Payment System**: Recharge account credits and make seamless payments.  
+- **e-Receipts**: Auto-generate and email receipts after purchases.  
+- **AI Chatbot**: Get product recommendations and assistance in real-time.  
 
-[![Download APK](https://img.shields.io/badge/Download-APK-blue.svg)](https://drive.google.com/your-apk-link-here)
+## 📲 Download APK  
 
-## Installation
-1. Download the APK file using the link above.
-2. Enable installation from unknown sources in your Android settings.
-3. Install the APK and launch the app to start using VSMART Trolley.
+Click the button below to download the latest version of **CloudCart**:  
 
-## Screenshots
-| Home Screen | Product Scanner | Billing System |
-|------------|----------------|---------------|
-| ![Home Screen](screenshot/home.png) | ![Product Scanner](screenshot/scanner.png) | ![Billing System](screenshot/billing.png) |
+[![Download CloudCart](https://img.shields.io/badge/Download-CloudCart-brightgreen?style=for-the-badge&logo=android)](YOUR_GOOGLE_DRIVE_LINK_HERE)  
 
-| Navigation Menu | Cart Overview | Payment Confirmation |
-|---------------|--------------|-------------------|
-| ![Navigation Menu](screenshot/menu.png) | ![Cart Overview](screenshot/cart.png) | ![Payment Confirmation](screenshot/payment.png) |
-
-| Accessibility Features | Order Summary | Settings Page |
-|----------------------|--------------|--------------|
-| ![Accessibility Features](screenshot/accessibility.png) | ![Order Summary](screenshot/summary.png) | ![Settings Page](screenshot/settings.png) |
-
-## Hardware Components
-- **Scanner** - Barcode scanner for efficient product tracking.
-- **Trolley** - A storage unit for carrying purchased items.
-- **Speaker** - Assists visually impaired users with voice-based product information.
-- **Display Board** - Provides visual product details for hearing-impaired users.
-- **Arduino Technology** - Acts as the central control unit for smooth synchronization.
-
-## Software Components
-- **Android Application** - Developed using Java and Android SDK for an intuitive user experience.
-- **CloudCart Integration** - Optimized transaction process and increased user retention.
+## 🛠️ Tech Stack  
+- **Programming Language**: Java  
+- **Android SDK**  
+- **Firebase for User Data & Transactions**  
+- **TensorFlow Lite for AI Chatbot**  
 
 ## Funding & Recognition
 - **Patent**: Integrated CloudCart is a patented project under the Patent Office, Government of India.
 - **Funding**: Received ₹1,00,000 from VNEST office, VIT Chennai, for further development.
 - **Smart Retail Integration**: Enhancing campus retail experiences with smart shopping solutions.
 
-## Contributing
-We welcome contributions to enhance VSMART Trolley. Feel free to fork the repository, raise issues, or submit pull requests.
+## 📸 Screenshots  
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+### Introduction to NFC Card  
+![Introduction to NFC Card](ScreenShot/SIH_CloudCart-images-2.jpg)  
 
----
-### Contact
-For inquiries or collaborations, reach out at [your email/contact info here].
+### Introduction to CloudCart Application  
+![Introduction to CloudCart Application](ScreenShot/SIH_CloudCart-images-3.jpg)  
+
+### Store Account 
+![Store Account](ScreenShot/SIH_CloudCart-images-4.jpg)  
+
+### Store Workflow  
+![Store Workflow](ScreenShot/SIH_CloudCart-images-5.jpg)  
+
+### Store Inventory Visualization
+![Store Inventory Visualization](ScreenShot/SIH_CloudCart-images-6.jpg)  
+
+### Inventory  
+![Inventory](ScreenShot/SIH_CloudCart-images-7.jpg)  
+
+### Verification  
+![Verification](ScreenShot/SIH_CloudCart-images-8.jpg)  
+
+### Return Orders  
+![Return Orders](ScreenShot/SIH_CloudCart-images-9.jpg)  
+
+### User Account
+![User Account](ScreenShot/SIH_CloudCart-images-10.jpg)  
+
+### Billing  
+![Billing](ScreenShot/SIH_CloudCart-images-11.jpg)  
+
+### Billing Workflow
+![Billing Workflow](ScreenShot/SIH_CloudCart-images-12.jpg)  
+
+### AI Chatbot  
+![AI Chatbot](ScreenShot/SIH_CloudCart-images-13.jpg)  
+
+### Benefits  
+![Benefits](ScreenShot/SIH_CloudCart-images-14.jpg)  
+
+### Conclusion 
+![Conclusion](ScreenShot/SIH_CloudCart-images-15.jpg)  
