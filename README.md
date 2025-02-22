@@ -24,7 +24,7 @@ CloudCart is an **Android-based e-commerce platform** designed to streamline sto
 
 Click the button below to download the latest version of **CloudCart**:  
 
-[![Download CloudCart](https://img.shields.io/badge/Download-CloudCart-brightgreen?style=for-the-badge&logo=android)](https://drive.google.com/file/d/1YEOsdeOz6oKoaqnUv2JYQzOzxe8LeZXL/view?usp=sharing)  
+[![Download CloudCart](https://img.shields.io/badge/Download-CloudCart-brightgreen?style=for-the-badge&logo=android)](https://github.com/Utkarsh140503/Cloud-Cart/blob/main/CloudCart.apk)  
 
 ## 🛠️ Tech Stack  
 - **Programming Language**: Java  
